@@ -19,3 +19,6 @@ Fitness scaling is for scaling the fitness of individuals to control how "super-
 
 References
 Rationale for designing a good real code crossover operator.[2-3]
+
+Credit--
+Xinjue Yu, Mitsuo Gen. <chapter 2.> Introduction to Evolutionary Algorithms
