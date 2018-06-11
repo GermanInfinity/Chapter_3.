@@ -13,7 +13,6 @@ Mutation tends to be important because it enables search in local optima or basi
 So the process starts with cross over which searches over a large space, before it is fine-tuned for convergence to occur during mutation.
 
 
-
 Stage 2 - Selection Methods
 
 iii) Selection Methods: Proportional selection(RWS and SUS), Fitness scaling and transferral(Linear scaling, Sigma truncation, Power law scaling, Boltzmann scaling)
@@ -52,8 +51,24 @@ Note:
 Elements affecting optimization are local factors and global factors. Local factors are for individuals thus are affected by cross-over and mutation operators. Global factors are on the population thus are affected by selection methods, population size and stop criteria. Both these factors need to have their parameters tweaked for a specific problem. In EA's we intially would like to search over a wide area of solutions, before converging to a desired location. This is really only possible by following a strategy that guides the control of the parameters for variation operators, population size, over time. 
 
 
+Stage 5 - Performance Evaluation of EA's
+ix) Performance Evaluation and Comparison: Select EAs to compare, Form the proper test suite, Select adequate performance indices to evaluate the algorithms, Obtain results then generate performance indices for each EA, Compare metrics statiscally, Draw conclusion.
+
+Note: 
+Benchmark problems, test suite, performance indices(Efficacy, Reliability, Efficiency, Relibaility and efficiency), performance statistics. Form things called PI's 
+
+
 References
+Theoretical part of EA's.[37, 112]
+Foundations of genetic algorithms.[113, 114]
+Synergy of crossover operators in blind problems.[116]
+Self-adaptive selection scheme.[120]
+Never visit search points.[123]
+Strategy parameter control.[32]
+Evolvable hardware.[125-127]
+
 Rationale for designing a good real code crossover operator.[2-3]
+
 
 Credit--
 Xinjue Yu, Mitsuo Gen. <chapter 2.> Introduction to Evolutionary Algorithms
