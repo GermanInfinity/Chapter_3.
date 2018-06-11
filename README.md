@@ -13,6 +13,7 @@ Mutation tends to be important because it enables search in local optima or basi
 So the process starts with cross over which searches over a large space, before it is fine-tuned for convergence to occur during mutation.
 
 
+
 Stage 2 - Selection Methods
 
 iii) Selection Methods: Proportional selection(RWS and SUS), Fitness scaling and transferral(Linear scaling, Sigma truncation, Power law scaling, Boltzmann scaling)
